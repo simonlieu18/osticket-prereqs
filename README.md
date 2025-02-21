@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/user-attachments/assets/b4f7f358-a4d7-4fdd-af90-a9e5160a7e04)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To enable IIS in Windows with CGI, go to Control Panel\Programs\Programs and Features, then on the left side column "Turn Windows features on or off"
 </p>
 <br />
 
