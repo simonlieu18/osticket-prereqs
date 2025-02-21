@@ -42,6 +42,14 @@ Install PHP Manager for IIS, Rewrite Module, MYSQL, Microsoft Visual C++
 ![image](https://github.com/user-attachments/assets/fba3c584-1d39-4c36-8002-554c522aedeb)
 
 <p>
-Install osTicket and copy the “upload” folder into “c:\inetpub\wwwroot” - Rename “upload” to “osTicket” Then enable some extensions that were disabled
+Install osTicket and copy the “upload” folder into “c:\inetpub\wwwroot” - Rename “upload” to “osTicket”. In IIS go to sites, default, osTicket then on the right click “Browse *:80”. Then enable some extensions that were disabled, php_imap.dll, php_intl.dll, php_opcache.dll
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/38687ba5-9167-44c0-b739-8e7d136fbcd9)
+
+
+<p>
+Install HeidiSQL and continue setting up osTicket on the browser
 </p>
 <br />
