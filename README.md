@@ -29,13 +29,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/user-attachments/assets/b4f7f358-a4d7-4fdd-af90-a9e5160a7e04)
 
 <p>
-To enable IIS in Windows with CGI, go to Control Panel\Programs\Programs and Features, then on the left side column "Turn Windows features on or off"
+Download this zipfile which includes all the necessary installs required for this installation (https://tinyurl.com/252s4yv6). To enable IIS in Windows with CGI, go to Control Panel\Programs\Programs and Features, then on the left side column "Turn Windows features on or off"
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/b9852971-c0a8-4c49-856d-c82116bc95f7)
+![image](https://github.com/user-attachments/assets/b8fd7147-f15e-49f0-bc49-0155acc4e006)
+
 <p>
-Install PHP Manager for IIS, Rewrite Module, MYSQL, Microsoft Visual C++
+Install PHP Manager for IIS and  Rewrite Module
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/d0936cb1-7125-4eef-9861-756fabbeaf73)
+
+<p>
+Create a new folder called "PHP" in the "C:" drive. Then unzip the PHP 7.3.8 folder into the newly reaacted "C:\PHP" folder.
 </p>
 <br />
 
