@@ -82,7 +82,7 @@ Go to "C:\inetpub\wwwroot\osTicket\include\" and find the folder "ost-sampleconf
 
 
 <p>
-Go to the properties of "ost-config.php" then go to the security tab and click "advanced". Then click "disable inheritance". After that, add "everyone", give them full access.
+Go to the properties of "ost-config.php" then go to the security tab and click "advanced". Then click "disable inheritance". After that, add "everyone", give them all access.
 </p>
 <br />
 
