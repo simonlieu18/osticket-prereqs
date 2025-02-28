@@ -43,14 +43,46 @@ Install PHP Manager for IIS and  Rewrite Module
 ![image](https://github.com/user-attachments/assets/d0936cb1-7125-4eef-9861-756fabbeaf73)
 
 <p>
-Create a new folder called "PHP" in the "C:" drive. Then unzip the PHP 7.3.8 folder into the newly reaacted "C:\PHP" folder.
+Create a new folder called "PHP" in the "C:" drive. Then unzip the PHP 7.3.8 folder into the newly creacted "C:\PHP" folder.
+</p>
+<br />
+
+
+![image](https://github.com/user-attachments/assets/d86e277c-a3c2-4e7c-8f05-9885d16c8b86)
+
+
+<p>
+Install Microsoft Visual C++ and MYSQL
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/fba3c584-1d39-4c36-8002-554c522aedeb)
 
 <p>
-Install osTicket and copy the “upload” folder into “c:\inetpub\wwwroot” - Rename “upload” to “osTicket”. In IIS go to sites, default, osTicket then on the right click “Browse *:80”. Then enable some extensions that were disabled, php_imap.dll, php_intl.dll, php_opcache.dll
+Install osTicket and copy the “upload” folder into “c:\inetpub\wwwroot” - Rename “upload” to “osTicket”. Open IIS and navigate to Sites ---> Default Web Site ---> osTicket, then on the right click “Browse *:80”.
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/2c43c5eb-447a-47a4-9862-e6d9420d6d6b)
+
+
+<p>
+On IIS navigate to Sites ---> Default Web Site ---> osTicket ---> PHP manager. Click "Enable or disable an extension", then enable these extensions, php_imap.dll, php_intl.dll, php_opcache.dll After that refresh the browser, and you'll notice some extensions are now enabled.
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/0ffc293e-55f7-482c-8f4d-62cea70e7ddd)
+
+<p>
+Go to "C:\inetpub\wwwroot\osTicket\include\" and find the folder "ost-sampleconfig.php" and rename it to "ost-config.php"
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/cff71dd1-376c-4d9f-8c0d-334ccfe76b02)
+
+
+<p>
+Go to the properties of "ost-config.php" then go to the security tab and click "advanced". Then click "disable inheritance". After that, add "everyone", give them full access.
 </p>
 <br />
 
